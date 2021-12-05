@@ -4,16 +4,20 @@ using UnityEngine;
 using TMPro;
 public class Timer : MonoBehaviour
 {
-    public TextMeshProUGUI text;
+    private TextMeshProUGUI text;
+    public TextMeshProUGUI[] _Timers;
     public int timerMinutes = 2;
     public int timerseconds = 59;
 
     private string displaySeconds;
     private string displayMinutes;
     public string displayFinished;
+
+    public
     // Start is called before the first frame update
     void Start()
     {
+        text = _Timers[0];
         if (timerseconds < 10)
         {
             displaySeconds = ":0" + timerseconds; 
@@ -42,6 +46,7 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
     IEnumerator Timerticking()
     {
@@ -82,6 +87,10 @@ public class Timer : MonoBehaviour
         else
         { 
             StartCoroutine(Timerticking()); 
+        }
+        for (int i = 0; i < _Timers.Length; i++)
+        {
+            _Timers[i].GetComponent<TextMeshProUGUI>().text = text.text;
         }
     }
 }

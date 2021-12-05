@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 877, y: 592}
-  m_MaxSize: {x: 16002, y: 18042}
+  m_MinSize: {x: 877, y: 571}
+  m_MaxSize: {x: 16002, y: 18021}
   vertical: 1
-  controlID: 26951
+  controlID: 4965
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 877, y: 221}
   m_MaxSize: {x: 16002, y: 4021}
   vertical: 0
-  controlID: 26952
+  controlID: 4966
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,10 +195,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 91}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffffb83d0000d23d0000
+      m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -285,9 +285,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -132.65741, y: 39.156174, z: -42.582237}
+    m_Target: {x: 221.3531, y: 14.322998, z: -174.22389}
     speed: 2
-    m_Value: {x: -132.65741, y: 39.156174, z: -42.582237}
+    m_Value: {x: 221.3531, y: 14.322998, z: -174.22389}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -334,13 +334,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09311742, y: -0.30096832, z: 0.029452948, w: 0.9487354}
+    m_Target: {x: 0.05621695, y: -0.93793243, z: 0.1811536, w: 0.29075527}
     speed: 2
-    m_Value: {x: 0.09310722, y: -0.30093536, z: 0.029449722, w: 0.94863147}
+    m_Value: {x: 0.05621041, y: -0.9378233, z: 0.18113253, w: 0.29072145}
   m_Size:
-    m_Target: 100.28606
+    m_Target: 156.03787
     speed: 2
-    m_Value: 100.28606
+    m_Value: 156.03787
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -479,7 +479,7 @@ MonoBehaviour:
     m_CachedPref: -238
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 15826
+  m_LastInspectedObjectInstanceID: -8476
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
@@ -516,7 +516,7 @@ MonoBehaviour:
     m_CachedPref: -270
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 15826
+  m_LastInspectedObjectInstanceID: -8476
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
@@ -668,14 +668,14 @@ MonoBehaviour:
     height: 271
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -714,22 +714,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Prototype/NOT FOR FINAL GAME/Materials/Standard
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/Prototype/NOT FOR FINAL GAME/Materials/Standard
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: I:\RMIT Masters\Gamejam_LandOfHeroes\Land_of_Heroes\Gamejam_LandOfHeroes
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 10}
-    m_SelectedIDs: b6620000
-    m_LastClickedID: 25270
-    m_ExpandedIDs: 000000002e3f00003a3f0000184f0000b4620000b8620000bc620000e465000000ca9a3b
+    m_SelectedIDs: 523f0000
+    m_LastClickedID: 16210
+    m_ExpandedIDs: 00000000523f0000543f0000563f0000583f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -757,7 +757,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e3f0000b4620000b8620000bc62000000ca9a3b
+    m_ExpandedIDs: 00000000523f0000543f0000563f0000583f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -782,8 +782,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d23d0000
-    m_LastClickedInstanceID: 15826
+    m_SelectedInstanceIDs: c0f7ffff
+    m_LastClickedInstanceID: -2112
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000585d0000be7a000012650000d64a0000f0ff000090280000e09c0000e4d2000048b4000092260100ae260100a0260100bc26010016790000cebe000004680100
     m_RenameOverlay:
@@ -851,22 +851,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Prototype
+    - Assets/Materials/Prototype/NOT FOR FINAL GAME/Materials/Standard
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/Prototype
+  - Assets/Materials/Prototype/NOT FOR FINAL GAME/Materials/Standard
   m_LastFoldersGridSize: -1
   m_LastProjectPath: I:\RMIT Masters\Gamejam_LandOfHeroes\Land_of_Heroes\Gamejam_LandOfHeroes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 46}
-    m_SelectedIDs: 184f0000
-    m_LastClickedID: 20248
-    m_ExpandedIDs: 000000002e3f0000b4620000b8620000bc62000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: f03f0000
+    m_LastClickedID: 16368
+    m_ExpandedIDs: 00000000523f0000543f0000563f0000583f0000683f0000e63f0000e83f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -894,7 +894,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e3f0000b4620000b8620000bc62000000ca9a3b
+    m_ExpandedIDs: 00000000523f0000543f0000563f0000583f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -919,9 +919,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 8ef1ffff14f0ffff12f0ffff10f0ffff0ef0ffff0cf0ffff0af0ffff60ecffff5eecffff5cecffff0ee9ffff0ce9ffff0ae9ffff08e9ffff06e9ffff04e9ffff02e9ffff00e9ffff0ae7ffff08e7ffff06e7ffff04e7ffff02e7ffff00e7fffffee6fffffce6ffff92e4ffff90e4ffff8ee4ffff8ce4ffff8ae4ffff88e4ffff86e4ffff84e4ffffd2e2ffffd0e2ffffcee2ffffcce2ffffcae2ffffc8e2ffffc6e2ffffc4e2ffff12dfffff10dfffff0edfffff0cdfffff0adfffff08dfffff06dfffff04dfffff02dfffff00dffffffedefffffcdefffffadefffff8defffff6defffff4defffff2defffff0deffffeedeffffecdeffffeadeffffe8deffffe6deffffe4deffff
+    m_LastClickedInstanceID: -8476
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000866c0000ec73030086e10600
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 15826
+  m_LastSelectedObjectID: 15872
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
