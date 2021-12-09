@@ -6,9 +6,15 @@ public class Character : MonoBehaviour
 {
     //movementt
     public CharacterController controller;
+    private Vector3 OgHead;
+    private Vector3 OgLegs;
+    public GameObject head;
+    public GameObject CasheHeadGameobject;
+    public GameObject CasheLegsGameobject;
 
     Vector3 velocity;
     public float movementSpeed = 12f;
+    public float sprintMoveSpeed = 2f;
     public float gravity = -18f;
     public float jumpHeight = 15f;
     //ground
@@ -20,10 +26,14 @@ public class Character : MonoBehaviour
 
     public LayerMask Wall;
     bool isOnWall;
+    private float cacheMoveSpeed;
+    private float cacheScale;
+    private float cacheYpos;
 
     // Start is called before the first frame update
     void Start()
     {
+        cacheMoveSpeed = movementSpeed;
     }
 
     // Update is called once per frame
@@ -56,6 +66,38 @@ public class Character : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+        if (Input.GetButton("Sprint"))
+        {
+            movementSpeed = sprintMoveSpeed;
+        }
+        else
+        {
+            movementSpeed = cacheMoveSpeed;
+        }
+
+        OgHead = CasheHeadGameobject.transform.position;
+        OgLegs = CasheLegsGameobject.transform.position;
+
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            head.transform.position = OgLegs;
+            cacheScale = controller.height;
+            cacheYpos = controller.center.y;
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            controller.height = cacheScale / 2;
+            controller.center = new Vector3(controller.center.x, cacheYpos *1.8f, controller.center.z);
+            //controller.radius = cacheYpos * 2;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            head.transform.position = OgHead;
+            controller.height = cacheScale;
+            this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + 2, this.transform.position.z);
+            controller.center = new Vector3(controller.center.x, cacheYpos, controller.center.z);
         }
 
         velocity.y += gravity * Time.deltaTime;
